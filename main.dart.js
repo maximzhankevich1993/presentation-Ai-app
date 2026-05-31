@@ -102092,7 +102092,7 @@ o=o.c
 k=A.Lk(2,m,B.ax,!1)
 j=window
 j.toString
-B.pb.MS(j,"https://cryptocloud.plus/process/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiTVRBek1qUXoiLCJ0eXBlIjoicHJvamVjdCIsInYiOiJkYjAxNDYyNjkxZGJkOWY0YTBmMTdmNTFjZTZkMzJiNTc0ZTJmMzdiZmE5YTcwODQ0MjllYjJmMTUxZTFjYWE1IiwiZXhwIjo4ODE3OTg2ODgzNn0.gVi4uAU_3XCccqBRpy3e1loNxKHNuzEKsIIv_K7fuos?amount="+A.m(l)+"&order_id="+p+"&plan="+o+"&email="+k,"_blank")
+B.pb.MS(j,"https://pay.cryptocloud.plus/pos/L1dhlsPbHiuNO7Fv?amount="+A.m(l)+"&order_id="+p+"&plan="+o+"&email="+k,"_blank")
 q.E(new A.aCV(q))
 return A.H(null,r)}})
 return A.I($async$Ig,r)},
