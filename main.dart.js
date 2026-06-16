@@ -30382,7 +30382,7 @@ if(s!=null)r.n(0,"Authorization","Bearer "+s)
 return r},
 Ng(a,b,c){var s=0,r=A.M(t.P),q,p,o,n,m,l
 var $async$Ng=A.N(function(d,e){if(d===1)return A.J(e,r)
-for(;;)switch(s){case 0:p=A.du("https://presentation-ai-backend.onrender.com/api/auth/register")
+for(;;)switch(s){case 0:p=A.du("https://prezentator-ai.zeabur.app/api/auth/register")
 o=t.N
 n=A.a2(["Content-Type","application/json"],o,o)
 s=3
@@ -30408,7 +30408,7 @@ case 5:case 1:return A.K(q,r)}})
 return A.L($async$Ng,r)},
 Ne(a,b){var s=0,r=A.M(t.P),q,p,o,n,m,l
 var $async$Ne=A.N(function(c,d){if(c===1)return A.J(d,r)
-for(;;)switch(s){case 0:p=A.du("https://presentation-ai-backend.onrender.com/api/auth/login")
+for(;;)switch(s){case 0:p=A.du("https://prezentator-ai.zeabur.app/api/auth/login")
 o=t.N
 n=A.a2(["Content-Type","application/json"],o,o)
 s=3
@@ -30434,7 +30434,7 @@ return A.L($async$Ne,r)},
 a7F(){var s=0,r=A.M(t.ui),q,p,o,n
 var $async$a7F=A.N(function(a,b){if(a===1)return A.J(b,r)
 for(;;)switch(s){case 0:s=3
-return A.E(A.A6(A.du("https://presentation-ai-backend.onrender.com/api/profile"),A.l8()),$async$a7F)
+return A.E(A.A6(A.du("https://prezentator-ai.zeabur.app/api/profile"),A.l8()),$async$a7F)
 case 3:o=b
 n=o.b
 A.cG("\ud83d\udce1 GET /profile - status: "+n)
@@ -30449,7 +30449,7 @@ throw A.i(A.bW(n==null?"Error loading profile":n))}case 1:return A.K(q,r)}})
 return A.L($async$a7F,r)},
 a7A(a){var s=0,r=A.M(t.H),q,p,o,n
 var $async$a7A=A.N(function(b,c){if(b===1)return A.J(c,r)
-for(;;)switch(s){case 0:q=A.du("https://presentation-ai-backend.onrender.com/api/auth/forgot-password")
+for(;;)switch(s){case 0:q=A.du("https://prezentator-ai.zeabur.app/api/auth/forgot-password")
 p=t.N
 o=A.a2(["Content-Type","application/json"],p,p)
 s=2
@@ -30462,7 +30462,7 @@ Nf(){var s=0,r=A.M(t.H),q=1,p=[],o=[],n,m,l,k
 var $async$Nf=A.N(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:q=3
 s=6
-return A.E(A.l2(A.du("https://presentation-ai-backend.onrender.com/api/auth/logout"),null,A.l8()),$async$Nf)
+return A.E(A.l2(A.du("https://prezentator-ai.zeabur.app/api/auth/logout"),null,A.l8()),$async$Nf)
 case 6:n=b
 if(n.b!==200&&n.b!==204)A.cG("Logout error on server: "+n.b)
 o.push(5)
@@ -30487,7 +30487,7 @@ return A.L($async$Nf,r)},
 a7J(a){var s=0,r=A.M(t.P),q,p,o,n,m,l
 var $async$a7J=A.N(function(b,c){if(b===1)return A.J(c,r)
 for(;;)switch(s){case 0:A.cG("\ud83c\udf9f\ufe0f Validating promo code: "+a)
-p=A.du("https://presentation-ai-backend.onrender.com/api/promocode/validate")
+p=A.du("https://prezentator-ai.zeabur.app/api/promocode/validate")
 o=A.l8()
 n=t.N
 s=3
@@ -30507,7 +30507,7 @@ return A.L($async$a7J,r)},
 a7z(a,b){var s=0,r=A.M(t.P),q,p,o,n,m,l
 var $async$a7z=A.N(function(c,d){if(c===1)return A.J(d,r)
 for(;;)switch(s){case 0:A.cG("\ud83c\udf9f\ufe0f Applying promo code: "+a+" for plan: "+b)
-p=A.du("https://presentation-ai-backend.onrender.com/api/promocode/apply")
+p=A.du("https://prezentator-ai.zeabur.app/api/promocode/apply")
 o=A.l8()
 n=t.N
 s=3
@@ -30528,7 +30528,7 @@ a7B(a,b){return A.b25(a,b)},
 b25(a,b){var s=0,r=A.M(t.Fw),q,p=2,o=[],n,m,l,k,j,i,h,g,f
 var $async$a7B=A.N(function(c,d){if(c===1){o.push(d)
 s=p}for(;;)switch(s){case 0:p=4
-i=A.du("https://presentation-ai-backend.onrender.com/api/generate")
+i=A.du("https://prezentator-ai.zeabur.app/api/generate")
 h=A.l8()
 s=7
 return A.E(A.l2(i,B.N.fd(A.a2(["topic",b,"slideCount",a],t.N,t.K)),h),$async$a7B)
@@ -30565,7 +30565,7 @@ case 2:return A.J(o.at(-1),r)}})
 return A.L($async$a7B,r)},
 a7H(a){var s=0,r=A.M(t.N),q,p,o,n,m,l
 var $async$a7H=A.N(function(b,c){if(b===1)return A.J(c,r)
-for(;;)switch(s){case 0:o=A.du("https://presentation-ai-backend.onrender.com/api/improve")
+for(;;)switch(s){case 0:o=A.du("https://prezentator-ai.zeabur.app/api/improve")
 n=A.l8()
 m=t.N
 s=3
@@ -30586,7 +30586,7 @@ a7C(a,b,c,d,e,f){return A.b26(a,b,c,d,e,f)},
 b26(a,b,c,d,e,a0){var s=0,r=A.M(t.P),q,p=2,o=[],n,m,l,k,j,i,h,g,f
 var $async$a7C=A.N(function(a1,a2){if(a1===1){o.push(a2)
 s=p}for(;;)switch(s){case 0:p=4
-i=A.du("https://presentation-ai-backend.onrender.com/api/lesson-plan/generate")
+i=A.du("https://prezentator-ai.zeabur.app/api/lesson-plan/generate")
 h=A.l8()
 s=7
 return A.E(A.l2(i,B.N.fd(A.a2(["topic",a0,"subject",e,"standard",d,"grade",b,"durationMinutes",a,"slideCount",c],t.N,t.K)),h),$async$a7C)
@@ -30627,7 +30627,7 @@ a7D(a,b){return A.b27(a,b)},
 b27(a,b){var s=0,r=A.M(t.P),q,p=2,o=[],n,m,l,k,j,i,h,g,f
 var $async$a7D=A.N(function(c,d){if(c===1){o.push(d)
 s=p}for(;;)switch(s){case 0:p=4
-i=A.du("https://presentation-ai-backend.onrender.com/api/quiz/generate")
+i=A.du("https://prezentator-ai.zeabur.app/api/quiz/generate")
 h=A.l8()
 s=7
 return A.E(A.l2(i,B.N.fd(A.a2(["topic",b,"questionCount",a],t.N,t.K)),h),$async$a7D)
@@ -30668,7 +30668,7 @@ Nd(a,b,c){return A.b28(a,b,c)},
 b28(a,b,c){var s=0,r=A.M(t.P),q,p=2,o=[],n,m,l,k,j,i,h,g,f
 var $async$Nd=A.N(function(d,e){if(d===1){o.push(e)
 s=p}for(;;)switch(s){case 0:p=4
-i=A.du("https://presentation-ai-backend.onrender.com/api/quiz/from-presentation")
+i=A.du("https://prezentator-ai.zeabur.app/api/quiz/from-presentation")
 h=A.l8()
 s=7
 return A.E(A.l2(i,B.N.fd(A.a2(["title",c,"slides",b,"questionCount",a],t.N,t.K)),h),$async$Nd)
@@ -30708,7 +30708,7 @@ a7E(a,b,c,d,e){return A.b29(a,b,c,d,e)},
 b29(a,b,c,d,e){var s=0,r=A.M(t.P),q,p=2,o=[],n,m,l,k,j,i,h,g,f
 var $async$a7E=A.N(function(a0,a1){if(a0===1){o.push(a1)
 s=p}for(;;)switch(s){case 0:p=4
-i=A.du("https://presentation-ai-backend.onrender.com/api/report/generate")
+i=A.du("https://prezentator-ai.zeabur.app/api/report/generate")
 h=A.l8()
 s=7
 return A.E(A.l2(i,B.N.fd(A.a2(["company",a,"period",b,"standard",e,"reportType",c,"slideCount",d],t.N,t.K)),h),$async$a7E)
@@ -30747,7 +30747,7 @@ return A.L($async$a7E,r)},
 a7G(){var s=0,r=A.M(t.P),q,p
 var $async$a7G=A.N(function(a,b){if(a===1)return A.J(b,r)
 for(;;)switch(s){case 0:s=3
-return A.E(A.A6(A.du("https://presentation-ai-backend.onrender.com/api/vip/stats"),A.l8()),$async$a7G)
+return A.E(A.A6(A.du("https://prezentator-ai.zeabur.app/api/vip/stats"),A.l8()),$async$a7G)
 case 3:p=b
 if(p.b===200){q=B.N.aL(0,A.dl(A.dk(p.e)).aL(0,p.w))
 s=1
